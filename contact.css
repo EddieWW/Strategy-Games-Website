@@ -1,0 +1,14 @@
+.bg {
+    background-image: url("images/contact-wp.jpg");
+
+    height: 50vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none; 
+    color: #273043;
+}

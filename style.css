@@ -1,0 +1,115 @@
+body {
+    background-color: #F0C4C1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#neubar {
+    background: #273043;
+    box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.4);
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+.nav-item .active {
+    border-radius: 6px;
+    background: linear-gradient(145deg, #fc4664, #DD0426);
+    /* box-shadow: 4px 4px 8px #59252b, */
+    /* -4px -4px 8px #59252b; */
+}
+
+#neubar .dropdown-menu a:hover {
+    color: #000;
+}
+
+#neubar .nav-item {
+    margin: auto 4px;
+}
+
+#neubar a {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#neubar .dropdown-menu {
+    background: #9197AE;
+}
+
+.text-pink {
+    color: #DD0426;
+}
+
+.bg {
+    background-image: url("images/chess-wp.jpg");
+
+    height: 70vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-g-color {
+    background-color: #F09294;
+}
+
+.bg-g-box-color {
+    background-color: #F0C4C1;
+}
+
+.text-blue {
+    color: #273043;
+}
+
+.bg-blue {
+    background-color: #273043;
+}
+
+.bg-pink {
+    background-color: #F02D3A;
+}
+
+.btn-style:hover {
+    background-color: #000;
+}
+
+.bg-footer {
+    background-color: #273043;
+}
+
+
+.arrow-btn {
+    position: fixed;
+    z-index: 900;
+    height: 55px;
+    width: 55px;
+    background-color: rgba(56, 129, 151, 0.59);
+    top: 90%;
+    left: 97%;
+    transform: translate(-50%, -50%);
+    float: right;
+    border-radius: 50%;
+    border: none;
+    color: #F02D3A;
+    overflow: hidden;
+}
+
+.arrow-btn h1 {
+    animation: arrow-top 1s infinite linear;
+}
+
+@keyframes arrow-top {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .arrow-btn {
+        left: 90%;
+    }
+}

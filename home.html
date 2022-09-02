@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/video-game.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Pl Ai</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light" id="neubar">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">
+                <h1 class="h1 text-light">Pl <span class="h1 text-pink">Ai</span></h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 active text-light" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 text-light" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 text-light" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link mx-2 dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Play
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item " href="chess/chess.html">Chess</a></li>
+                            <li><a class="dropdown-item " href="ttt/ttt.html">Tic-Tac-Toe</a></li>
+                            <li><a class="dropdown-item " href="8puzzle/8puzzle.html">8Puzzle</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="bg" id="sec-1">
+        <div class="mask h-100" style="background-color: rgba(198, 101, 156, 0.6);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <h1 class="text-white display-3 mb-0">Welcome to Pl <span class="text-dark">Ai</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h3 class="text-dark">PlAi is a play on words!</h3>
+                <h4 class="text-dark">It's a combination of play and AI(Artificial Intelligence)! <br>
+                    This is because here we have a number of games and the majority of the games are played against AI.
+                </h4>
+                <a href="about.html" class="btn bg-blue btn-style text-light">LEARN MORE</a>
+            </div>
+        </div>
+        <hr class="text-pink">
+        <div class="row my-4">
+            <div class="col-md-5">
+                <img class="img-fluid h-100 w-100 rounded" src="images/game-wp.png" alt="">
+            </div>
+            <div class="col-md-7 p-5">
+                <h3>Why should we play strategy and puzzle games?</h3><br>
+                <h5>Strategy games improve teamwork and decision making skills.
+                    This representative nature of the challenges allows to improve these skills in real life. Also, by
+                    connecting in the virtual world, people can do so in real life because they would have a mutual
+                    interest. This could play a major role in enhancing teamwork.
+                    The biggest strategy game, Chess improves cognitive skills, Improves self-confidence and self-worth,
+                    Increases attention span, Increases memory capacity.
+                </h5>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid bg-g-color p-3 pb-5">
+        <div class="row">
+            <div class="col-md-12 text-center py-5">
+                <p class="set-font text-blue">Do you like games?</p>
+                <h3 class="text-blue">Try these Games!</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 p-5">
+                <div class="card bg-g-box-color">
+                    <div class="card-body text-center">
+                        <img class="p-3" src="images/chess.png" alt="">
+                        <h5 class="card-title text-blue p-2">Chess</h5>
+                        <p class="card-text p-2 text-blue">If you like chess try playing against this AI. Choose the
+                            difficulty and challenge yourself with a game.</p> <br>
+                        <a href="chess/chess.html" class="btn bg-blue btn-style text-light">PLAY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-5">
+                <div class="card bg-g-box-color">
+                    <div class="card-body text-center">
+                        <img class="p-3" src="images/tic-tac-toe.png" alt="">
+                        <h5 class="card-title text-blue p-2">Tic-Tac-Toe</h5>
+                        <p class="card-text p-2 text-blue">You can also try this simple yet entertaining game of
+                            tic-tac-toe.
+                            It is also against a simple AI.</p> <br>
+                        <a href="ttt/ttt.html" class="btn bg-blue btn-style text-light">PLAY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-5">
+                <div class="card bg-g-box-color">
+                    <div class="card-body text-center">
+                        <img class="p-3" src="images/puzzle.png" alt="">
+                        <h5 class="card-title text-blue p-2">8Puzzle</h5>
+                        <p class="card-text p-2 text-blue">Or you can try solving this puzzle, it looks simple but
+                            it might take you longer than you think.</p> <br>
+                        <a href="8puzzle/8puzzle.html" class="btn bg-blue btn-style text-light">PLAY NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-pink p-5">
+        <div class="row">
+            <div class="col-md-6 text-center text-light">
+                <h3>If you like chess than you have to try this knight's tour simulation!</h3>
+            </div>
+            <div class="col-md-6 text-center">
+                <a href="kt/kt.html" class="btn bg-blue btn-style px-5 text-light">TRY NOW</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid bg-footer p-5">
+        <div class="row p-5">
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-3">
+                <h6 class="text-pink">Thank you</h6>
+                <p class="text-light">Thank you very much for visiting this website and trying out the games, I hope you
+                    enjoyed your time here and you will visit us again!</p>
+                <a href="about.html" class="btn bg-pink btn-style text-light">LEARN MORE</a> <br> <br>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-2">
+                <h6 class="text-pink pb-3">Navigation</h6>
+                <a href="home.html" class="text-light d-block pb-2" style="text-decoration: none;">Home</a>
+                <a href="about.html" class="text-light d-block pb-2" style="text-decoration: none;">About</a>
+                <a href="contact.html" class="text-light d-block pb-2" style="text-decoration: none;">Contact</a><br>
+            </div>
+            <div class="col-md-2">
+                <h6 class="text-pink pb-3">Play</h6>
+                <a href="chess/chess.html" class="text-light d-block pb-2" style="text-decoration: none;">Chess</a>
+                <a href="ttt/ttt.html" class="text-light d-block pb-2" style="text-decoration: none;">Tic-tac-toe</a>
+                <a href="8puzzle/8puzzle.html" class="text-light d-block pb-2" style="text-decoration: none;">8
+                    puzzle</a>
+            </div>
+            <div class="col-md-2">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-8">
+                <hr class="text-light">
+            </div>
+            <div class="col-md-2">
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 text-center text-light p-5">
+                <h6>Made by Edmond Shala</h6>
+            </div>
+        </div>
+    </div>
+
+
+    <a href="#sec-1">
+        <button class="arrow-btn">
+            <h1>↑</h1>
+        </button>
+    </a>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+
+
+        $(".arrow-btn").hide();
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var arrow = $(window).scrollTop();
+                if (arrow > 500) {
+                    $(".arrow-btn").show();
+                }
+
+                else {
+                    $(".arrow-btn").hide();
+                }
+            })
+        })
+
+    </script>
+</body>
+
+</html>
