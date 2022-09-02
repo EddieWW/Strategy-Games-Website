@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="lib/chessboardjs/css/chessboard-0.3.0.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="chess.css">
+    <link rel="icon" href="../images/video-game.png" type="image/x-icon">
+    <title>Chess</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light" id="neubar">
+        <div class="container">
+            <a class="navbar-brand" href="../home.html">
+                <h1 class="h1 text-light">Pl <span class="h1 text-pink">Ai</span></h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 text-light" aria-current="page" href="../home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 text-light" href="../about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2 text-light" href="../contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link mx-2 dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Play
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item active" href="chess.html">Chess</a></li>
+                            <li><a class="dropdown-item " href="../ttt/ttt.html">Tic-Tac-Toe</a></li>
+                            <li><a class="dropdown-item " href="../8puzzle/8puzzle.html">8Puzzle</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container-fluid p-3 pt-1">
+        <div class="row">
+            <div class="col-12 board-div">
+                <div id="board" class="board">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <br>
+                    <h4>Difficulty:
+                        <select id="search-depth">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3" selected>3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </h4>
+                    <br>
+
+                    <h4 class="span">Positions checked: <span id="position-count"></span></h4>
+                    <br>
+                    <h4 class="span">Time: <span id="time"></span></h4>
+                    <br>
+                    <h4 class="span">Positions per sec: <span id="positions-per-s"></span> </h4>
+                    <br>
+                    <a href="chess.html" class="btn bg-pink btn-style text-light mb-3">Reset</a>
+                    <br>
+
+                    <div id="move-history" class="move-history h4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/jquery/jquery-3.2.1.min.js"></script>
+    <script src="lib/chessboardjs/js/chess.js"></script>
+    <script src="lib/chessboardjs/js/chessboard-0.3.0.js"></script>
+    <script src="script.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>

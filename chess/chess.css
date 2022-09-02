@@ -1,0 +1,30 @@
+.board-div {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.board {
+    height: 30%;
+    width: 30vw;
+}
+
+.move-history {
+    max-height: 100px;
+    overflow-y: scroll;
+    text-transform: uppercase;
+    color: #1f1f1f;
+    background-color: #fff;
+}
+
+/* @media only screen and (max-width:768px) {
+    .board {
+        width: 70vw;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .board {
+        width: 90vw;
+    }
+} */
